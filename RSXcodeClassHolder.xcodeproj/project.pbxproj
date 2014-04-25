@@ -10,6 +10,7 @@
 		303DD88E18DC328B0072CAB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303DD88D18DC328B0072CAB5 /* Foundation.framework */; };
 		303DD89118DC328B0072CAB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DD89018DC328B0072CAB5 /* main.m */; };
 		303DD89518DC328B0072CAB5 /* RSXcodeClassHolder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 303DD89418DC328B0072CAB5 /* RSXcodeClassHolder.1 */; };
+		303DD89D18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DD89C18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		303DD89018DC328B0072CAB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		303DD89318DC328B0072CAB5 /* RSXcodeClassHolder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSXcodeClassHolder-Prefix.pch"; sourceTree = "<group>"; };
 		303DD89418DC328B0072CAB5 /* RSXcodeClassHolder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RSXcodeClassHolder.1; sourceTree = "<group>"; };
+		303DD89B18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSXcodeClassSourceCodeGen.h; sourceTree = "<group>"; };
+		303DD89C18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSXcodeClassSourceCodeGen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				303DD89018DC328B0072CAB5 /* main.m */,
+				303DD89B18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.h */,
+				303DD89C18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.m */,
 				303DD89418DC328B0072CAB5 /* RSXcodeClassHolder.1 */,
 				303DD89218DC328B0072CAB5 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303DD89D18DC51100072CAB5 /* RSXcodeClassSourceCodeGen.m in Sources */,
 				303DD89118DC328B0072CAB5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
